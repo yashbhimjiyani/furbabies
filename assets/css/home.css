@@ -1,0 +1,251 @@
+body{
+    font-family:Helvetica;
+}
+.logo{
+    display: inline-block;
+    padding: 0px 15px;
+    image-rendering: -webkit-optimize-contrast;
+    mix-blend-mode: multiply;
+}
+nav{
+    margin-bottom: -43px ;
+    background-color: rgb(221, 240, 243);
+    top: 0;
+    position: sticky;
+}
+.navbar{
+    display: inline-block;
+    position: absolute;
+    /* margin: 0px auto; */
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 32px 175px 6px 175px;
+}
+.navbar ul li{
+    padding: 8px 10px;
+    margin: 0px 3px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(17, 167, 17);
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: navy;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar ul li:hover{
+    border-bottom: 2px solid navy;
+}
+.navbar ul li a:active{
+    color: navy;
+    text-decoration: none;
+}
+.navbar ul li a:active{
+    color: navy;
+    font-weight: bold;
+    border-bottom: 2px solid navy;
+}
+.other{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    margin: 40px 30px 30px 30px;
+}
+.other a{
+    text-decoration: none;
+    /* border: 1px solid blue; */
+    /* border-radius: 10px; */
+    padding: 5px 10px;
+    margin: 5px 5px;
+    color: rgb(17, 167, 17);
+    font-weight: bold;
+}
+.other a:hover{
+    border: 1px solid navy; 
+    border-radius: 10px;
+    color: navy;
+    font-weight: bold;
+}
+.section1{
+    margin: 2px auto;
+    background-image: url('istockphoto-1214635081-170667a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    
+}
+.consult{
+    display: block;
+    height: 370px;
+    margin: 25px 30px;
+    width: auto;
+}
+.heading{
+    text-align: center;
+    margin: 45px auto;
+    padding: 35px ;
+    color: rgb(211, 138, 138);
+}
+.doctors{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: -30px 50px;
+    padding: 2px 95px;
+    /* align-items: center; */
+    height: 350px;
+    
+}
+.doctor{
+    border: 1px solid black;
+    padding: 3px 5px;
+    margin: 0px 5px;
+    padding: 3px 10px;
+    width: 200px;
+    /* background-color: white; */
+}
+.doctor img{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: 40%;
+}
+.bio{
+    margin:0px auto;
+}
+.bio h2{
+    color:white;
+    /* display: block; */
+    /* text-align: center; */
+    margin: 0px;
+    text-align: center;
+    font-weight: bolder;
+}
+.a{
+    border: 1px solid black;
+}
+.aboutdr{
+    color: rgb(92, 82, 82);
+    font-weight: lighter;
+    margin: 2px 0px;
+    text-align: center;
+}
+.locate{
+    margin: 3px 0px;
+    /* text-align: center; */
+    font-size: small;
+    color:white
+    /* font-weight: bold; */
+}
+.docdesc{
+    margin: 3px 0px;
+    /* color: dimgray; */
+    font-size: small;
+    color: white;
+    
+}
+.button{
+    display: block;
+    margin: 10px auto;
+    color: rgb(17, 167, 17);
+    background-color: white;
+    border: 1px solid rgb(17, 167, 17);
+    border-radius: 10px;
+    padding: 8px 8px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: lightgray;
+}
+
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Furbabies</title>
+    <link rel="stylesheet" href="home.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="home.html"><img src="Screenshot (500).png" alt="Furbabies" width="90" height="90"></a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Veterinarian</a></li>
+                <li><a href="#">Hospitals</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="other">
+            <a href="signup.html">Sign Up</a> |
+            <a href="login.html">Log in</a>
+        </div>
+    </nav>
+    <section class="section1">
+        <div class="heading">
+            <h2>Consult with the expert doctors and vets through Chat Online in emergency 24x7</h2>
+        </div>
+        <div class="consult">
+            <div class="doctors">
+                <div class="doctor">
+                    <img src="istockphoto-1193092094-612x612.jpg" alt="Doctor 1">
+                    <div class="bio">
+                        <h2>Dr. Abc</h2>
+                        <p class="aboutdr">Pro Vet</p>
+                        <p class="locate"><b>Address:</b><br>@ adbsj animal care, Rajkot</p>
+                        <p class="docdesc"><b>About me:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, commodi?</p>
+                        <button class="button">Consult Me!</button>                    
+                    </div>
+                </div>
+                <div class="doctor">
+                    <img src="istockphoto-1193092094-612x612.jpg" alt="Doctor 2">
+                    <div class="bio">
+                        <h2>Dr. xyz</h2>
+                        <p class="aboutdr">Pro Vet</p>
+                        <p class="locate"><b>Address:</b><br>@ adbsj animal care, Rajkot</p>
+                        <p class="docdesc"><b>About me:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, commodi?</p>
+                        <button class="button">Consult Me!</button>
+                    </div>
+                </div>
+                <div class="doctor">
+                    <img src="istockphoto-1193092094-612x612.jpg" alt="Doctor 3">
+                    <div class="bio">
+                        <h2>Dr. pqr</h2>
+                        <p class="aboutdr">Pro Vet</p>
+                        <p class="locate"><b>Address:</b><br>@ adbsj animal care, Rajkot</p>
+                        <p class="docdesc"><b>About me:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, commodi?</p>
+                        <button class="button">Consult Me!</button>                    
+                    </div>
+                </div>
+                <div class="doctor">
+                    <img src="istockphoto-1193092094-612x612.jpg" alt="Doctor 4">
+                    <div class="bio">
+                        <h2>Dr. lmn</h2>
+                        <p class="aboutdr">Pro Vet</p>
+                        <p class="locate"><strong>Address:</strong><br>@ adbsj animal care, Rajkot</p>
+                        <p class="docdesc"><strong>About me:</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, commodi?</p>
+                        <button class="button">Consult Me!</button>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html> */

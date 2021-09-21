@@ -1,0 +1,123 @@
+body{
+    background-image:url('');
+    /* height:100%; */
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
+    mix-blend-mode: multiply;
+    filter: contrast(150%);
+    /* opacity:0.5; */
+    font-family: Helvetica;
+    letter-spacing: 1.2px;
+}
+.h1{
+    height: 400px;
+    vertical-align: center;
+    width:400px;
+    border:1px hidden black;
+}
+.h1 img{
+    width: 190px;
+    height:190px;
+    display: block;
+    margin: auto;
+    filter: contrast(250%);
+    filter: brightness(100%);
+    opacity: 1;
+
+}
+
+.h1{
+    margin: 0px auto;
+    max-width: 500px;
+}
+.h1 h2{
+    text-align: center;
+    margin: 8px;
+    padding: 0px;
+    color: blue;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+}
+.h1 form{
+    display: block;
+    margin: 25px;
+    border: 2px solid rgb(21, 112, 21);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color:bisque;
+}
+.h1 form input{
+    display: block;
+    padding: 5px;
+    margin: 12px auto;
+    width: 220px;
+    border: none;
+    border: 1px solid blue;
+    font-size: 16px;
+    color:rgb(21, 112, 21);
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    background-color:bisque;
+    outline: none;
+}
+.h1 form #label{
+    color: blue;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.h1 form input[type=submit]{
+    border: 1px solid rgb(17, 167, 17);
+    color: rgb(17, 167, 17);
+    /* background-color: ; */
+    padding: 7px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bolder;
+    outline: none;
+}
+.h1 ::placeholder{
+    color: rgb(17, 167, 17);
+}
+.h1 form .newuser{
+    display: block;
+    margin: -1px auto;
+    padding: 0px 68px;
+    color: blue;
+    font-weight: bold;
+}
+.h1 form .newuser a{
+    color:rgb(17, 167, 17);
+    text-decoration: none;
+    font-weight: bold;
+}
+.h1 form input[type=submit]:hover{
+    color:rgb(21, 112, 21);
+    border:1px solid rgb(21, 112, 21);
+    cursor:pointer;
+    text-decoration: underline;
+}
+.h1 form .newuser a:hover{
+    color:rgb(21, 112, 21);
+    text-decoration: underline;
+}
+.fp{
+    color: blue;
+    text-decoration: none;
+    font-size:14px;
+    margin:0px auto;
+    padding: 0px 80px;
+    font-weight:550;
+}
+.fp:hover{
+    color:blue;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.error{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}

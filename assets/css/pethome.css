@@ -1,0 +1,68 @@
+.navbar-custom {
+    background-color: rgb(220, 240, 243);
+}
+
+.nav-link-custom {
+    color: navy;
+}
+
+.navbar-brand-custom {
+    display: inline-block;
+    padding: 0px 15px;
+    image-rendering: -webkit-optimize-contrast;
+    mix-blend-mode: multiply;
+}
+
+.navbar-custom .navbar-nav .nav-item a.active {
+    color: green;
+    border: navy;
+
+}
+
+.navbar-custom .navbar-nav .nav-item:hover .nav-link-custom {
+    color: green;
+    border-bottom: 1px groove darkblue;
+    border-radius: 6px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+li>a {
+    font-size: 18px;
+}
+.list-unstyled li a{
+    
+    color: green;
+}
+.list-unstyled li a:hover,.stayl a:hover{
+    
+    color: rgb(77, 77, 207) !important;
+}
+
+.buttonn{
+    border: 1px solid navy;
+    background-color: white;
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+.buttonn a{
+    color:navy;
+}
+.buttonn a:visited{
+    color:navy;
+}
+.buttonn a:active{
+    color:navy;
+}
+.buttonn:hover{
+    color:darkblue;
+    background-color: rgb(201, 221, 228);
+}
+*{
+    box-sizing: border-box;
+}
+.carousel-inner > .carousel-item img{
+    height: 65%;
+}

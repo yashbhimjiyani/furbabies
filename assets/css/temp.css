@@ -1,0 +1,131 @@
+.logo {
+    display: inline-block;
+    padding: 0px 15px;
+    image-rendering: -webkit-optimize-contrast;
+    mix-blend-mode: multiply;
+    display: block;
+    margin: 1px auto;
+}
+
+body {
+    background-image: url('assets/img/istockphoto-1185878014-170667a.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    letter-spacing: 1.2px;
+    font-family: Helvetica;
+}
+
+.h2 {
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+    color: navy;
+    font-weight: bolder;
+}
+
+.btn-group {
+    margin-left: 280px;
+}
+
+form {
+    display: block;
+    border: 1px solid blue;
+    border-radius: 60px;
+    padding: 25px;
+    margin: 8px auto;
+    background: transparent;
+    width: 75%;
+}
+
+input {
+    color: navy;
+    background: transparent;
+    border-bottom: 1px solid navy;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin: 10px auto;
+    padding: 5px;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    color: navy;
+    border: 1px solid navy;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+input[type=submit]:hover {
+    color: blue;
+
+}
+
+input::placeholder {
+    color: navy;
+    font-weight: 525;
+}
+
+select {
+    display: block;
+    width: 30%;
+    margin: 3px auto 12px auto;
+    font-size: 22px;
+    padding: 5px;
+    background: transparent;
+    border: 2px solid navy;
+    cursor: pointer;
+    color: navy;
+    font-weight: 525;
+}
+
+
+option {
+    color: navy;
+    font-weight: 500;
+    background-color: powderblue;
+}
+
+.qs {
+    margin: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.already {
+    display: block;
+    margin: -10px 220px 5px;
+    padding: 0px 62px;
+    color: blue;
+    font-size: 32px;
+}
+
+.skip a {
+    color: navy;
+    display: block;
+    margin: 2px;
+    margin-left: 400px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.skip a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.already a {
+    color: navy;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 550;
+}
+.already a:hover{
+    color: blue;
+    text-decoration: underline;
+}
